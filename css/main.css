@@ -542,11 +542,23 @@ position: relative;
     	height: 260px;
 		position: relative;
 	}
+	.work{
+		height: 220px;
+	}
+	.work1{
+		left:0;
+	}
 	.work .wsvg{
-		width:130px;
-		margin: 5px 5%;
+		width:125px;
+		margin: 5px 3%;
+		height: 92px;
+		float: none;
+	}
+	.work .wsvg span {
+		font-size: 19px;
 	}
 	.work svg {
-		width: 36px;
+		width: 35px;
+    	height: 32px;
 	}
   }
