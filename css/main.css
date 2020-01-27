@@ -267,7 +267,6 @@ bottom: 2%;
 .work{
 	color: white;
     position: relative;
-    display: block;
     width: 100%;
     height: 120px;
 }
@@ -522,20 +521,32 @@ position: relative;
 		bottom: -55px;
 	  }
 	  /* skills */
+	  .skills{
+		  margin:0 auto auto 0;
+	  }
 	  .skills ul li {
-		left: 25%;
-    position: relative;
-		margin-top: 18px;
+		left: 10%;
+    	position: relative;
+		margin: 18px auto auto auto;
+		width:100%;
 		font-size: 14px;
 	}
 	.skills svg{
 		width: 36px;
 	}
 	#skillsvg {
-		left: 20%;
+		left: 0;
+		margin:auto;
 		top: -20px;
-    	width: 290px;
+    	width: 100%;
     	height: 260px;
 		position: relative;
+	}
+	.work .wsvg{
+		width:130px;
+		margin: 5px 5%;
+	}
+	.work svg {
+		width: 36px;
 	}
   }
